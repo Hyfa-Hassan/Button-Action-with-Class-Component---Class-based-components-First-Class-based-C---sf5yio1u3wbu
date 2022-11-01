@@ -9,7 +9,9 @@ class App extends Component {
 		}
 	};
 	handleClick(){
-	    	this.setState(true)
+	    	this.setState(prevState()=>{
+			return prevState!==prevState		
+		})
 	}
 
     render() {
