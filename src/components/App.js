@@ -7,10 +7,10 @@ class App extends Component {
 	    	this.state = {
 			show:false
 		}
-	    handleClick(){
-	    	this.setState(true)
-	    }
 	};
+	handleClick(){
+	    	this.setState({show:true})
+	}
 	
 
     render() {
