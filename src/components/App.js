@@ -7,12 +7,11 @@ class App extends Component {
 	    	this.state = {
 			show:false
 		}
+	    handleClick(){
+	    	this.setState(true)
+	    }
 	};
-	handleClick(){
-	    	this.setState(prevState()=>{
-			return prevState!==prevState		
-		})
-	}
+	
 
     render() {
     	return(
